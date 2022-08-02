@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Deep Dash</title>
+        <title>Deep Edge</title>
         <meta name="description" content="Creative Digital Agency" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
