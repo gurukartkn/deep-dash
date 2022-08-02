@@ -20,12 +20,13 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="hidden lg:block lg:w-2/3 xl:w-1/2">
+        <div className="hidden lg:block lg:w-2/3 xl:w-1/2 pb-5">
           <Image
             src={HeroImage}
             alt="hero-image"
             placeholder="blur"
             loading="lazy"
+            className="rounded-bl-xl"
           ></Image>
         </div>
       </div>
