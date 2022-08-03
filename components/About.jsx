@@ -9,7 +9,7 @@ const About = () => {
     <div className="lg:flex">
       <div className="bg-[#100C46] p-10 md:p-24 lg:w-1/2 lg:p-10 xl:p-32 2xl:w-2/3">
         <motion.p
-          initial={{ x: -600, opacity: 0 }}
+          initial={{ x: -60, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 2.5, duration: 1, type: "spring" }}
           className="text-[#6257FE] pb-3 xl:text-md"
@@ -25,7 +25,7 @@ const About = () => {
           About Agency
         </motion.h3>
         <motion.p
-          initial={{ x: 850, opacity: 0 }}
+          initial={{ x: 50, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ delay: 3.5, duration: 1, type: "spring" }}
           className="text-white font-thin py-3 lg:text-md xl:text-xl"
@@ -35,7 +35,7 @@ const About = () => {
           mobile responsive and easy to buy from.
         </motion.p>
         <motion.p
-          initial={{ x: 850, opacity: 0 }}
+          initial={{ x: 50, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1, type: "spring" }}
           className="text-white font-thin py-3 lg:text-md xl:text-xl"
@@ -47,7 +47,7 @@ const About = () => {
         </motion.p>
       </div>
       <motion.div
-        initial={{ y: -600, opacity: 0 }}
+        initial={{ y: -60, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 3, duration: 1, type: "spring" }}
         className="hidden lg:block lg:w-1/2 xl:ml-[-120px] xl:mt-[25px] 2xl:m-0 2xl:w-1/3"

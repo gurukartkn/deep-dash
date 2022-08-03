@@ -16,7 +16,7 @@ const Services = () => {
     <div className="lg:flex">
       <div className="p-10 lg:w-2/3 xl:p-32">
         <motion.p
-          initial={{ x: -600, opacity: 0 }}
+          initial={{ x: -60, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1, type: "spring" }}
           className="text-[#6257FE] pb-3 xl:text-md"
@@ -95,7 +95,7 @@ const Services = () => {
         </div>
       </div>
       <motion.div
-        initial={{ x: 600, opacity: 0 }}
+        initial={{ x: 60, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ delay: 2, duration: 1, type: "spring" }}
         className="hidden lg:block lg:w-1/3  xl:w-1/2 xl:mt-16"

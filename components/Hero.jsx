@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="py-32 lg:w-1/3 lg:py-7 lg:px-4 xl:py-20 xl:px-28 xl:w-1/2">
           <div className="flex flex-col gap-3 md:gap-5 text-center items-center  p-5 md:p-4 lg:text-left lg:items-start">
             <motion.p
-              initial={{ x: -600, opacity: 0 }}
+              initial={{ x: -60, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.5, duration: 1, type: "spring" }}
               className="text-md md:text-lg "
@@ -27,7 +27,7 @@ const Hero = () => {
               Digital Agency
             </motion.h2>
             <motion.p
-              initial={{ x: 850, opacity: 0 }}
+              initial={{ x: 5, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 1.5, duration: 1, type: "spring" }}
               className="text-lg md:text-lg "
@@ -36,7 +36,7 @@ const Hero = () => {
               customers.
             </motion.p>
             <motion.div
-              initial={{ y: 1000, opacity: 0 }}
+              initial={{ y: 10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 2, duration: 1, type: "spring" }}
             >
@@ -52,8 +52,8 @@ const Hero = () => {
         </div>
 
         <motion.div
-          initial={{ x: 600, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
+          initial={{ y: 60, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 2, duration: 1, type: "spring" }}
           className="hidden lg:block lg:w-2/3 xl:w-1/2 pb-5"
         >
