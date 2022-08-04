@@ -9,9 +9,9 @@ const Header = () => {
   return (
     <div className="flex justify-between sticky top-0 z-10 bg-[#6257FE] xl:bg-transparent">
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
+        initial={{ y: 100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 1.5, duration: 1.5, type: "spring" }}
         className="bg-[#6257FE] p-3 w-32"
       >
         <Image
@@ -21,9 +21,9 @@ const Header = () => {
         ></Image>
       </motion.div>
       <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
+        initial={{ y: 100, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 1.5, duration: 1.5, type: "spring" }}
         className="bg-[#6257FE] p-3 flex w-52 justify-around items-center"
       >
         <FaTwitter className="text-white h-6 w-6 cursor-pointer" />

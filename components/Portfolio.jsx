@@ -11,25 +11,25 @@ const Portfolio = () => {
   return (
     <div className="text-center p-10">
       <motion.p
-        initial={{ y: -600, opacity: 0 }}
+        initial={{ y: 10, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 1, type: "spring" }}
+        transition={{ delay: 1, duration: 1.5, type: "spring" }}
         className="text-[#6257FE] pb-3 xl:text-md"
       >
         Our works
       </motion.p>
       <motion.h1
-        initial={{ scale: 0, opacity: 0 }}
-        whileInView={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 1, type: "spring" }}
+        initial={{ y: 10, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 1, duration: 1.5, type: "spring" }}
         className="text-[#100C46] font-bold text-3xl pb-5 lg:text-4xl xl:text-5xl"
       >
         Portfolio
       </motion.h1>
       <motion.div
-        initial={{ scale: 0, opacity: 0 }}
-        whileInView={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 1, type: "spring" }}
+        initial={{ y: 10, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 1, duration: 1.5, type: "spring" }}
         className="flex flex-wrap gap-2 justify-center"
       >
         <Image src={Portfolio1} alt="portfolio1" />

@@ -9,25 +9,25 @@ const Contact = () => {
     <div className="lg:flex">
       <div className="p-10 lg:w-2/3 xl:p-32 text-center xl:text-left">
         <motion.p
-          initial={{ x: -600, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1, type: "spring" }}
+          initial={{ y: 10, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ delay: 1, duration: 1.5, type: "spring" }}
           className="text-[#6257FE] pb-3 xl:text-md"
         >
           Keep in touch
         </motion.p>
         <motion.h1
-          initial={{ scale: 0, opacity: 0 }}
-          whileInView={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 1, type: "spring" }}
+          initial={{ y: 10, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ delay: 1, duration: 1.5, type: "spring" }}
           className="text-[#100C46] font-bold text-3xl pb-5 lg:text-4xl xl:text-5xl"
         >
           Contact us
         </motion.h1>
         <motion.div
-          initial={{ scale: 0, opacity: 0 }}
-          whileInView={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 1, type: "spring" }}
+          initial={{ y: 10, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ delay: 1, duration: 1.5, type: "spring" }}
           className="flex flex-col gap-3 text-left"
         >
           <div className="bg-[#F4F3FF] text-[#100C46] flex flex-col py-2 px-5">

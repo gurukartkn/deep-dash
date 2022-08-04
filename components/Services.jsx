@@ -16,26 +16,26 @@ const Services = () => {
     <div className="lg:flex">
       <div className="p-10 lg:w-2/3 xl:p-32">
         <motion.p
-          initial={{ x: -60, opacity: 0 }}
-          whileInView={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1, type: "spring" }}
+          initial={{ y: 10, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ delay: 1, duration: 1.5, type: "spring" }}
           className="text-[#6257FE] pb-3 xl:text-md"
         >
           What we do
         </motion.p>
         <motion.h3
-          initial={{ scale: 0, opacity: 0 }}
-          whileInView={{ scale: 1, opacity: 1 }}
-          transition={{ duration: 1, type: "spring" }}
+          initial={{ y: 10, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ delay: 1, duration: 1.5, type: "spring" }}
           className="text-[#100C46] font-bold text-3xl pb-5 lg:text-4xl xl:text-5xl"
         >
           Our Services
         </motion.h3>
         <div className="flex flex-wrap gap-7">
           <motion.div
-            initial={{ scale: 0, opacity: 0 }}
-            whileInView={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 1, type: "spring" }}
+            initial={{ y: 10, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: 1, duration: 1.5, type: "spring" }}
             className="md:max-w-[300px] lg:max-w-[250px]"
           >
             <h4 className="text-[#100C46] font-bold xl:text-lg">
@@ -48,9 +48,9 @@ const Services = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ scale: 0, opacity: 0 }}
-            whileInView={{ scale: 1, opacity: 1 }}
-            transition={{ delay: 0.5, duration: 1, type: "spring" }}
+            initial={{ y: 10, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: 1.25, duration: 1.5, type: "spring" }}
             className="md:max-w-[300px] lg:max-w-[250px]"
           >
             <h4 className="text-[#100C46] font-bold xl:text-lg">
@@ -63,9 +63,9 @@ const Services = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ scale: 0, opacity: 0 }}
-            whileInView={{ scale: 1, opacity: 1 }}
-            transition={{ delay: 1, duration: 1, type: "spring" }}
+            initial={{ y: 10, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: 1.5, duration: 1.5, type: "spring" }}
             className="md:max-w-[300px] lg:max-w-[250px]"
           >
             <h4 className="text-[#100C46] font-bold xl:text-lg">
@@ -78,9 +78,9 @@ const Services = () => {
             </p>
           </motion.div>
           <motion.div
-            initial={{ scale: 0, opacity: 0 }}
-            whileInView={{ scale: 1, opacity: 1 }}
-            transition={{ delay: 1.5, duration: 1, type: "spring" }}
+            initial={{ y: 10, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ delay: 1.75, duration: 1.5, type: "spring" }}
             className="md:max-w-[300px] lg:max-w-[250px]"
           >
             <h4 className="text-[#100C46] font-bold xl:text-lg">
@@ -97,7 +97,7 @@ const Services = () => {
       <motion.div
         initial={{ x: 60, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
-        transition={{ delay: 2, duration: 1, type: "spring" }}
+        transition={{ delay: 1, duration: 1.5, type: "spring" }}
         className="hidden lg:block lg:w-1/3  xl:w-1/2 xl:mt-16"
       >
         <Image
